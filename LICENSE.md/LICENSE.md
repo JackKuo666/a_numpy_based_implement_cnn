@@ -1,4 +1,4 @@
-a_numpy_implement_cnn 【】
+a_numpy_based_implement_cnn 【不用框架，python搭建基于numpy的卷积神经网络系统】
 
 Copyright (c) 2018, jack Kuo
 All rights reserved.
