@@ -24,6 +24,8 @@ batches.meta  data_batch_2  data_batch_4  test_batch
 data_batch_1  data_batch_3  data_batch_5
 ```
 [注：cifar-10-batches-py文件夹存放的是cifar—10数据集，相应的`data_utils.py`Python文件是提取数据集的代码。]
+
+
 测试部分由两个Python文件和一个文件夹组成：
 ```
 data_utils.py
