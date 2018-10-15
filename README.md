@@ -47,10 +47,46 @@ diff_8.npy     param_0.npy
 ```
 [注：param文件夹中存放的是训练好的wangluo参数]
 
+运行代码：
+1.训练：
+```
+python cnn.py 
+```
+输出：
 
-
-
-
+2.测试：
+```
+python CNN_test.py
+```
+输出：
+```
+load data: ./cifar-10-batches-py/data_batch_1
+load data: ./cifar-10-batches-py/data_batch_2
+load data: ./cifar-10-batches-py/data_batch_3
+load data: ./cifar-10-batches-py/data_batch_4
+load data: ./cifar-10-batches-py/data_batch_5
+load data: ./cifar-10-batches-py/test_batch
+去均值之前的图像:
+(3, 32, 32)
+6
+[[ 59.  43.  50.]
+ [ 16.   0.  18.]
+ [ 25.  16.  49.]]
+save pic to: ./param/img_去均值之前的图像.png
+done!
+去均值之后的图像:
+(3, 32, 32)
+3
+[[ -71.71074  -87.14036  -81.05044]
+ [-114.0993  -129.3446  -112.2169 ]
+ [-104.72472 -112.71662  -80.47348]]
+save pic to: ./param/img_去均值之后的图像.png
+done!
+net build ok
+该图正确的标签是：3
+预测到该图的标签是：[6]
+正确率为：0.0
+```
 
 
 
